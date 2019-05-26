@@ -15,7 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ok',function (){
-    return 'pk';
-
-});
+Route::get('index','MainController@index');
